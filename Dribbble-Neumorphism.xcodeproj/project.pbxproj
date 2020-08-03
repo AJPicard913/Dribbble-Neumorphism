@@ -13,6 +13,11 @@
 		0953791224D49CED00ECD8C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0953791124D49CED00ECD8C2 /* Preview Assets.xcassets */; };
 		0953791D24D49CEE00ECD8C2 /* Dribbble_NeumorphismTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0953791C24D49CEE00ECD8C2 /* Dribbble_NeumorphismTests.swift */; };
 		0953792824D49CEE00ECD8C2 /* Dribbble_NeumorphismUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0953792724D49CEE00ECD8C2 /* Dribbble_NeumorphismUITests.swift */; };
+		0953793624D8577200ECD8C2 /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0953793524D8577100ECD8C2 /* TestFile.swift */; };
+		0953793824D859A800ECD8C2 /* LightSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0953793724D859A800ECD8C2 /* LightSwitch.swift */; };
+		0953793A24D85BCF00ECD8C2 /* AirConditioningButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0953793924D85BCF00ECD8C2 /* AirConditioningButton.swift */; };
+		0953793C24D85D0F00ECD8C2 /* MoreDevices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0953793B24D85D0F00ECD8C2 /* MoreDevices.swift */; };
+		0953793E24D85DED00ECD8C2 /* Scenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0953793D24D85DED00ECD8C2 /* Scenario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		0953792324D49CEE00ECD8C2 /* Dribbble-NeumorphismUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dribbble-NeumorphismUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0953792724D49CEE00ECD8C2 /* Dribbble_NeumorphismUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dribbble_NeumorphismUITests.swift; sourceTree = "<group>"; };
 		0953792924D49CEE00ECD8C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0953793524D8577100ECD8C2 /* TestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
+		0953793724D859A800ECD8C2 /* LightSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightSwitch.swift; sourceTree = "<group>"; };
+		0953793924D85BCF00ECD8C2 /* AirConditioningButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirConditioningButton.swift; sourceTree = "<group>"; };
+		0953793B24D85D0F00ECD8C2 /* MoreDevices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreDevices.swift; sourceTree = "<group>"; };
+		0953793D24D85DED00ECD8C2 /* Scenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,11 @@
 			children = (
 				0953790A24D49CEC00ECD8C2 /* Dribbble_NeumorphismApp.swift */,
 				0953790C24D49CEC00ECD8C2 /* ContentView.swift */,
+				0953793D24D85DED00ECD8C2 /* Scenario.swift */,
+				0953793B24D85D0F00ECD8C2 /* MoreDevices.swift */,
+				0953793924D85BCF00ECD8C2 /* AirConditioningButton.swift */,
+				0953793724D859A800ECD8C2 /* LightSwitch.swift */,
+				0953793524D8577100ECD8C2 /* TestFile.swift */,
 				0953790E24D49CED00ECD8C2 /* Assets.xcassets */,
 				0953791324D49CED00ECD8C2 /* Info.plist */,
 				0953791024D49CED00ECD8C2 /* Preview Content */,
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0953793C24D85D0F00ECD8C2 /* MoreDevices.swift in Sources */,
+				0953793624D8577200ECD8C2 /* TestFile.swift in Sources */,
 				0953790D24D49CEC00ECD8C2 /* ContentView.swift in Sources */,
+				0953793824D859A800ECD8C2 /* LightSwitch.swift in Sources */,
+				0953793A24D85BCF00ECD8C2 /* AirConditioningButton.swift in Sources */,
 				0953790B24D49CEC00ECD8C2 /* Dribbble_NeumorphismApp.swift in Sources */,
+				0953793E24D85DED00ECD8C2 /* Scenario.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
