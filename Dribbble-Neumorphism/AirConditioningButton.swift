@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct AirConditioningButton: View {
+
+    
     var body: some View {
         HStack {
             VStack(alignment: .leading){
@@ -20,6 +22,7 @@ struct AirConditioningButton: View {
             }
             .padding(.leading, 20)
             Spacer()
+            // Button
             ZStack {
                 
                 Circle()
@@ -42,10 +45,14 @@ struct AirConditioningButton: View {
                     )
                     .frame(width: 50, height: 50)
                     .foregroundColor(Color(#colorLiteral(red: 0.8170326352, green: 0.8487840295, blue: 0.8973321319, alpha: 1)))
+                    
                
             }
-            .frame(width: 90, height: 90)
+            .frame(width: 90, height:90)
             .padding(.trailing, 20)
+            .animation(.spring())
+
+           
         }
         .frame(width: 300, height: 120)
         .background(Color(#colorLiteral(red: 0.9215001464, green: 0.9319422841, blue: 0.9420594573, alpha: 1)))

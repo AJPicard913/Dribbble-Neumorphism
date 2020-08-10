@@ -8,21 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+   
+    
     var body: some View {
-        VStack(alignment: .leading) {
-            Header()
-            Title()
-            LightSwitch()
-                .padding(.top, 50)
-            AirConditioningButton()
-                .padding(.leading, 20)
-                .padding(.top, 10)
-            MoreDevices()
-                .padding(.leading, 20)
-                .padding(.bottom, 40)
-                .padding(.top, 10)
-            Scenario()
+        ZStack {
+            VStack(alignment: .leading) {
+                Header()
+                Title()
+                LightSwitch()
+                    .padding(.top, 50)
+                    
+                AirConditioningButton()
+                    .padding(.leading, 20)
+                    .padding(.top, 10)
+                MoreDevices()
+                    .padding(.leading, 20)
+                    .padding(.bottom, 40)
+                    .padding(.top, 10)
+                Scenario()
+            }
         }
+        .frame(maxWidth: .infinity)
     }
 }
 

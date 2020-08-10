@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09083B0524E1A3B10092B691 /* LightSwitchTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09083B0424E1A3B10092B691 /* LightSwitchTwo.swift */; };
 		0953790B24D49CEC00ECD8C2 /* Dribbble_NeumorphismApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0953790A24D49CEC00ECD8C2 /* Dribbble_NeumorphismApp.swift */; };
 		0953790D24D49CEC00ECD8C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0953790C24D49CEC00ECD8C2 /* ContentView.swift */; };
 		0953790F24D49CED00ECD8C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0953790E24D49CED00ECD8C2 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09083B0424E1A3B10092B691 /* LightSwitchTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightSwitchTwo.swift; sourceTree = "<group>"; };
 		0953790724D49CEC00ECD8C2 /* Dribbble-Neumorphism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dribbble-Neumorphism.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0953790A24D49CEC00ECD8C2 /* Dribbble_NeumorphismApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dribbble_NeumorphismApp.swift; sourceTree = "<group>"; };
 		0953790C24D49CEC00ECD8C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,10 +109,11 @@
 			children = (
 				0953790A24D49CEC00ECD8C2 /* Dribbble_NeumorphismApp.swift */,
 				0953790C24D49CEC00ECD8C2 /* ContentView.swift */,
+				0953793724D859A800ECD8C2 /* LightSwitch.swift */,
+				09083B0424E1A3B10092B691 /* LightSwitchTwo.swift */,
 				0953793D24D85DED00ECD8C2 /* Scenario.swift */,
 				0953793B24D85D0F00ECD8C2 /* MoreDevices.swift */,
 				0953793924D85BCF00ECD8C2 /* AirConditioningButton.swift */,
-				0953793724D859A800ECD8C2 /* LightSwitch.swift */,
 				0953793524D8577100ECD8C2 /* TestFile.swift */,
 				0953790E24D49CED00ECD8C2 /* Assets.xcassets */,
 				0953791324D49CED00ECD8C2 /* Info.plist */,
@@ -277,6 +280,7 @@
 				0953793C24D85D0F00ECD8C2 /* MoreDevices.swift in Sources */,
 				0953793624D8577200ECD8C2 /* TestFile.swift in Sources */,
 				0953790D24D49CEC00ECD8C2 /* ContentView.swift in Sources */,
+				09083B0524E1A3B10092B691 /* LightSwitchTwo.swift in Sources */,
 				0953793824D859A800ECD8C2 /* LightSwitch.swift in Sources */,
 				0953793A24D85BCF00ECD8C2 /* AirConditioningButton.swift in Sources */,
 				0953790B24D49CEC00ECD8C2 /* Dribbble_NeumorphismApp.swift in Sources */,
